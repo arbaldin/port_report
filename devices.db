@@ -1,0 +1,15 @@
+# A list of devices that we need to consult
+# This script uses netmiko library
+#
+# Lines started with '#' are comments
+#
+# For each device you should inform all fields. Example:
+# hostname,device_type,host,global_delay_factor,timeout,vendor,site,service
+# SWITCH01,cisco_ios,10.0.0.1,1,CISCO,DC1,ACCESS
+#
+# Valid device_type are: cisco_ios, dell_os9, extreme_nos, juniper_junos, 
+# extreme_netiron, cisco_ios_telnet, dell_os6, ruckus_fastiron, cisco_nxos.
+# Althoug netmiko supports other NOS, those were the devices I worked with and
+# made the proper parsing.
+#
+hostname,device_type,host,global_delay_factor,timeout,vendor,site,service
